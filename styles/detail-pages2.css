@@ -1,0 +1,304 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    transition: all .7s ease;
+}
+
+.detail-card {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgb(41, 40, 40);
+    background-color: rgb(204, 243, 253);
+    cursor: pointer;
+}
+
+.detail-card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card-footer {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px;
+}
+
+.card-footer span {
+    color: var(--blue);
+    font-weight: 400;
+}
+
+.card-footer img {
+    height: 30px;
+    width: 30px;
+}
+
+.speaker {
+    opacity: 0.2;
+}
+
+.voices {
+    display: none;
+}
+
+.strawberry-georgian-description {
+    font-size: 19px;
+}
+
+.strawberry-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.apple-georgian-description {
+    font-size: 19px;
+}
+
+.apple-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.banana-georgian-description {
+    font-size: 19px;
+}
+
+.banana-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.orange-georgian-description {
+    font-size: 19px;
+}
+
+.orange-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.pineapple-georgian-description {
+    font-size: 19px;
+}
+
+.pineapple-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.grapes-georgian-description {
+    font-size: 19px;
+}
+
+.grapes-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.watermelon-georgian-description {
+    font-size: 19px;
+}
+
+.watermelon-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.pomegranate-georgian-description {
+    font-size: 19px;
+}
+
+.pomegranate-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.tomato-georgian-description {
+    font-size: 19px;
+}
+
+.tomato-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.potato-georgian-description {
+    font-size: 19px;
+}
+
+.potato-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.cucumber-georgian-description {
+    font-size: 19px;
+}
+
+.cucumber-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.carrot-georgian-description {
+    font-size: 19px;
+}
+
+.carrot-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.cabbage-georgian-description {
+    font-size: 19px;
+}
+
+.cabbage-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.corn-georgian-description {
+    font-size: 19px;
+}
+
+.corn-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.broccoli-georgian-description {
+    font-size: 19px;
+}
+
+.broccoli-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.mushroom-georgian-description {
+    font-size: 19px;
+}
+
+.mushroom-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.happy-georgian-description {
+    font-size: 19px;
+}
+
+.happy-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.sad-georgian-description {
+    font-size: 19px;
+}
+
+.sad-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.angry-georgian-description {
+    font-size: 19px;
+}
+
+.angry-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.tired-georgian-description {
+    font-size: 19px;
+}
+
+.tired-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.smile-georgian-description {
+    font-size: 19px;
+}
+
+.smile-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.scared-georgian-description {
+    font-size: 19px;
+}
+
+.scared-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.surprised-georgian-description {
+    font-size: 19px;
+}
+
+.surprised-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.laugh-georgian-description {
+    font-size: 19px;
+}
+
+.laugh-english-description {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    display: none;
+}
+
+.go-back {
+    display: flex;
+    justify-content: center;
+}
+
+.go-back button {
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 20px 5px 20px 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 500;
+    border: 5px groove rgb(204, 243, 253);
+    cursor: pointer;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Noto+Sans+Georgian:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    background-image: url("../assets/imgs/background.jpg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0077ff;
+}
+
+/* header and menu styles */
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    z-index: -1;
+}
+
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 217, 255, 0.76), var(--blue));
+    height: 100vh;
+    width: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-info.active {
+    width: 245px;
+}
+
+.menu-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.menu-info a:last-child {
+    margin-bottom: 0;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.menu-bar-icon {
+    width: 33px;
+}
+
+.xmark {
+    display: none;
+    width: 30px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--blue);
+    background-color: rgb(204, 243, 253);
+    border-radius: 50px 150px 50px 150px;
+    padding: 5px 15px;
+}
+
+/* and off header and menu styles */
+
+
+/* main container */
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    min-height: calc(100vh - 74px - 45px);
+}
+
+/* main container */
+
+
+/* footer style */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+}
+
+footer span {
+    color: white;
+}
+
+footer img {
+    height: 45px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* and off footer style */
