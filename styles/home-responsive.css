@@ -74,10 +74,6 @@
         .main-container {
             grid-template-columns: repeat(3, minmax(0, 1fr));
         }
-
-        .main-container a:hover {
-            transform: scale(1.07);
-        }
     }
 
     @media screen and (min-width: 1330px) {
